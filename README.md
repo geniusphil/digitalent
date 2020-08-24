@@ -14,8 +14,8 @@ DIGI+ Talent 跨域數位人才加速躍升計畫
 * [NGS Data Format and Analysis Flow](https://drive.google.com/file/d/1A4XnqRie_LCTDsX1sODGN9iYRjbKh9_L/view?usp=sharing)
 * [NGS Alignment](https://drive.google.com/file/d/1FbeqmzRTYNkJFcTEW3rYTQpIFn2UByYm/view?usp=sharing)
 * [NGS Variant Calling (Germline/Somatic)](https://drive.google.com/file/d/1u4p8NkIpfkTwHYOSM76YjrzlxdmpWeRA/view?usp=sharing)
-* [NGS SV/CNV Calling]()
-* [NGS Variant Annotation for Clinical]()
+* [NGS SV/CNV Calling](https://drive.google.com/file/d/1XZ3XGRrp244YCWWV72SQB9meSZKVegB4/view?usp=sharing)
+* [NGS Variant Annotation for Clinical](https://drive.google.com/file/d/1JpceLlJ8PZlV4LZk0SGBlX2bhKPBqKj_/view?usp=sharing)
 
 ---
 # Hands-On
@@ -26,7 +26,7 @@ DIGI+ Talent 跨域數位人才加速躍升計畫
   * Node 為 3 CPU core, 4GB RMA
 * 使用方式：
   * 採 PBSpro 送 job 進行相關的分析
-  * job queue 為 ngscourse
+  * job queue 為 `ngscourse`
 * 軟體安裝路徑
   * `/pkg/biology/`
 
@@ -45,12 +45,11 @@ DIGI+ Talent 跨域數位人才加速躍升計畫
 #!/bin/bash
 #PBS -P ACD109058
 #PBS -W group_list=ACD109058
-#PBS -N test_job
+#PBS -N FastQC_job
 #PBS -l select=1:ncpus=3
-#PBS -l place=pack
-#PBS -q digi_plus_test
-#PBS -o /work1/ACD109058/
-#PBS -e /work1/ACD109058/
+#PBS -q ngscourse
+#PBS -o /work1/ACD109058/queue_status/
+#PBS -e /work1/ACD109058/queue_status/
 #PBS -M philippe.lin@ailabs.tw
 #PBS -m e
 
