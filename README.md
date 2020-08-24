@@ -11,9 +11,9 @@ DIGI+ Talent 跨域數位人才加速躍升計畫
 
 * Course overview and Introduction to Linux
 * [Intruduction to NGS Technologies](https://drive.google.com/file/d/1u8d6LMQPdOwSFaGVGNuHVRQh7q-oV9EN/view?usp=sharing) 
-* NGS Data Format and Analysis Flow
-* NGS Alignment
-* NGS Variant Calling (Germline/Somatic)
+* [NGS Data Format and Analysis Flow](https://drive.google.com/file/d/1A4XnqRie_LCTDsX1sODGN9iYRjbKh9_L/view?usp=sharing)
+* [NGS Alignment](https://drive.google.com/file/d/1FbeqmzRTYNkJFcTEW3rYTQpIFn2UByYm/view?usp=sharing)
+* [NGS Variant Calling (Germline/Somatic)](https://drive.google.com/file/d/1A4XnqRie_LCTDsX1sODGN9iYRjbKh9_L/view?usp=sharing)
 * NGS SV/CNV Calling
 * NGS Variant Annotation for Clinical
 
