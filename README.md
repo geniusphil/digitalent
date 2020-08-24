@@ -9,18 +9,18 @@ DIGI+ Talent 跨域數位人才加速躍升計畫
 ---
 # Course lecture slides
 
-* Course overview and Introduction to Linux
+* [Course overview and Introduction to Linux]()
 * [Intruduction to NGS Technologies](https://drive.google.com/file/d/1u8d6LMQPdOwSFaGVGNuHVRQh7q-oV9EN/view?usp=sharing) 
 * [NGS Data Format and Analysis Flow](https://drive.google.com/file/d/1A4XnqRie_LCTDsX1sODGN9iYRjbKh9_L/view?usp=sharing)
 * [NGS Alignment](https://drive.google.com/file/d/1FbeqmzRTYNkJFcTEW3rYTQpIFn2UByYm/view?usp=sharing)
 * [NGS Variant Calling (Germline/Somatic)](https://drive.google.com/file/d/1u4p8NkIpfkTwHYOSM76YjrzlxdmpWeRA/view?usp=sharing)
-* NGS SV/CNV Calling
-* NGS Variant Annotation for Clinical
+* [NGS SV/CNV Calling]()
+* [NGS Variant Annotation for Clinical]()
 
 ---
 # Hands-On
 
-* 計畫代號：ACD109--8
+* 計畫代號：ACD109058
 * 計算資源：
   * [NCHC Taiwania 1 (台灣杉一號)](https://iservice.nchc.org.tw/)
   * Node 為 3 CPU core, 4GB RMA
@@ -30,9 +30,32 @@ DIGI+ Talent 跨域數位人才加速躍升計畫
 * 軟體安裝路徑
   * `/pkg/biology/`
 
+# Raw Data
+* WES (PE)
+  * `/work1/ACD109058/NA12878MOD_1.fastq.gz`
+  * `/work1/ACD109058/NA12878MOD_2.fastq.gz`
+
 # Reference Genome
-* hg19
-* hg38
+* hg19 `/pkg/biology/reference/Homo_sapiens/GATK/hg19`
+* hg38 `/pkg/biology/reference/Homo_sapiens/GATK/hg38`
+
+# PBS Pro
+
+```bash
+#!/bin/bash
+#PBS -P ACD109058
+#PBS -W group_list=ACD109058
+#PBS -N test_job
+#PBS -l select=1:ncpus=3
+#PBS -l place=pack
+#PBS -q digi_plus_test
+#PBS -o /work1/ACD109058/
+#PBS -e /work1/ACD109058/
+#PBS -M philippe.lin@ailabs.tw
+#PBS -m e
+
+/path/my_program –options seq_files
+```
 
 ---
 # NGS Tools
