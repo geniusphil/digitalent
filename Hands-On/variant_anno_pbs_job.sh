@@ -35,5 +35,5 @@ ANNOVAR_TAB="/pkg/biology/ANNOVAR/ANNOVAR_20200608/table_annovar.pl"
 $ANNOVAR_TAB HG00403.chr20.gatk.avinput /work1/ACD109058/humandb/ -buildver hg38 \
 -out HG00403.chr20.gatk \
 -remove \
--protocol refGene,ensGene,cytoBand,genomicSuperDups,gwasCatalog,avsnp150,esp6500siv2_all,1000g2015aug_all,1000g2015aug_afr,1000g2015aug_amr,1000g2015aug_eur,1000g2015aug_eas,1000g2015aug_sas,nci60,cosmic85_coding,clinvar_20180603,gnomad_genome,exac03,intervar_20180118,dbnsfp31a_interpro \
--operation g,g,r,r,r,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f -otherinfo -nastring NA
+-protocol refGene,ensGene,cytoBand,genomicSuperDups,gwasCatalog,avsnp150,esp6500siv2_all,1000g2015aug_all,1000g2015aug_afr,1000g2015aug_amr,1000g2015aug_eur,1000g2015aug_eas,1000g2015aug_sas,nci60,clinvar_20180603,gnomad211_genome,exac03,intervar_20180118,dbnsfp31a_interpro \
+-operation g,g,r,r,r,f,f,f,f,f,f,f,f,f,f,f,f,f,f -otherinfo -nastring NA
