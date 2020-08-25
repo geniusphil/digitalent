@@ -33,7 +33,7 @@ SAMBAMBA="/pkg/biology/sambamba/sambamba_v0.7.1/sambamba"
 
 $GATK4 --java-options "-Xmx4g -DGATK_STACKTRACE_ON_USER_EXCEPTION=true -Djava.io.tmpdir=$TMP_DIR" \
 GenotypeGVCFs \
--R $REF_FASTA \
+-R $REF_HG38_FASTA \
 --dbsnp $DBSNP_HG38 \
 -V $OUTPUT_DIR/${PREFIX}_allsites.g.vcf.gz \
 -O $OUTPUT_DIR/${PREFIX}_allsites.vcf.gz

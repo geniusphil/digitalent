@@ -34,7 +34,7 @@ SAMBAMBA="/pkg/biology/sambamba/sambamba_v0.7.1/sambamba"
 
 $GATK4 --java-options "-Xmx4g -DGATK_STACKTRACE_ON_USER_EXCEPTION=true -Djava.io.tmpdir=$TMP_DIR" \
 HaplotypeCaller \
--R $REF_FASTA \
+-R $REF_HG38_FASTA \
 -I $OUTPUT_DIR/${PREFIX}_redup.bam \
 --dbsnp $DBSNP_HG38 \
 -stand-call-conf 50.0 \
