@@ -73,7 +73,15 @@ DIGI+ Talent 跨域數位人才加速躍升計畫
 * [AnnotSV 2.4](https://lbgi.fr/AnnotSV/downloads)
 
 ---
+# Resource
+
+* [Broad Institute - genomics public data](https://console.cloud.google.com/storage/browser/genomics-public-data)
+* [Broad Institute - bundle - Mutect2](ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/Mutect2/)
+* [GATK tutorial data](https://drive.google.com/drive/folders/1aBcbV_Hlyg0wOOmZDDSBeIc0uw1r3f_w)
+
+---
 # Reference
 
 * 2019 Genomic Epidemiology Workshop
 * Applied Computational Genomics Course at UU
+* [Resource bundle](https://gatk.broadinstitute.org/hc/en-us/articles/360035890811-Resource-bundle)
