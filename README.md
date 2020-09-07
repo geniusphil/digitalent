@@ -76,7 +76,7 @@ DIGI+ Talent 跨域數位人才加速躍升計畫
 # Resource
 
 * [Broad Institute - genomics public data](https://console.cloud.google.com/storage/browser/genomics-public-data)
-* [Broad Institute - bundle - Mutect2](ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/Mutect2/)
+* [Broad Institute - bundle - Mutect2](shorturl.at/knuN3)
 * [GATK tutorial data](https://drive.google.com/drive/folders/1aBcbV_Hlyg0wOOmZDDSBeIc0uw1r3f_w)
 
 ---
